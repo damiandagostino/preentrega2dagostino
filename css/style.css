@@ -1,0 +1,236 @@
+/*reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Aqui comienza la barra de navegacion*/
+.barra-de-navegacion{
+    display:inline-flex;
+    width:100%;
+    list-style: none;
+    border:2rem;
+    padding:1rem 2rem 1rem 4rem;
+    margin:0rem;
+    text-decoration:none;
+    background:#B20303;
+    color:#ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 1rem;
+    line-height:3rem;
+    text-align: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.marca{
+    font-weight: 700;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: normal;
+}
+.logo{
+width: 4em;
+padding: 0em 1em 0em 0em;
+}
+a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 1em;
+}
+.links-nav{
+    list-style: none;
+    text-decoration: none;
+    padding: 0em 4em 0em 4em;
+    color:#ffff;
+}
+
+/*Aqui comienza el cuerpo de la pagina*/
+.botonera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boton {
+    text-align: center;
+    border:2.5rem;
+    padding:1rem;
+    text-decoration:none;
+    background:#B20303;
+    color:#ffff;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border-radius: 40%;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor:pointer;
+    display: inline-flex;
+    padding: 1rem;
+    width: 200px;
+    height: 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imgen-portada {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 627px;
+    height: 553px;
+    flex-shrink: 0;
+    border-radius: 3.75rem 0rem 0rem 3.75rem;
+}
+
+.cuerpo{
+    background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjAxN3wwfDF8c2VhcmNofDd8fGJhY2tncm91bmR8ZW58MHx8fHwxNjg2NDI0MTcyfDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+h1{
+    color:#111111;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight:600;
+    font-size: 1em;
+    line-height:3em;    
+}
+.titulos-contenidos{
+    display: inline-block;
+    color:#000000;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight:600;
+    font-size: 2em;
+    line-height:3em;
+    text-align: justify;
+    width: 32.5rem;
+    height: 5rem;
+    left: 4.5rem;
+    top: 7.375rem;
+}
+.titulos-contenidos-paginas{
+    color:#000000;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight:600;
+    font-size: 2em;
+    line-height:3em;
+    text-align: center;
+    width: 32.5rem;
+    height: 5rem;
+    left: 50rem;
+    top: 7.375rem;
+}
+.subtitulos-contenidos{
+    display: inline-block;
+    color:#000000;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight:450;
+    font-size: 1.5em;
+    line-height:3em;
+    text-align: justify;
+    width: 51.25rem;
+    height: 5rem;
+    left: 4.5rem;
+    top: 9.875rem;
+}
+main p{
+    color:#000000;
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 0rem 10rem;
+}
+
+
+/*Aqui comienza el pie de pagina*/
+footer {
+display: flex;
+background-color: black;
+justify-content: center;
+align-items: center;
+align-content: center;
+color:#ffff;
+font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+font-weight:600;
+font-size: 1em;
+line-height:3em;
+text-align: center;
+}
+.img-links-redes-youtube{
+    width: 16rem;
+    justify-content: center;
+    padding: 2em 1em 2em 2em;
+    margin-left: 10em;
+}
+.img-links-redes-instagram{
+    width: 7.5rem;
+    justify-content: center;
+    padding: 2em 1em 2em 2em;
+    margin-left: 10em;
+}
+.img-links-redes-twitch{
+    width: 7.5rem;
+    justify-content: center;
+    padding: 2em 1em 2em 2em;
+    margin-left: 10em;
+}
+.img-links-redes-google{
+    width: 16rem;
+    justify-content: center;
+    padding: 2em 1em 2em 2em;
+    margin-left: 10em;
+}
+/**formulario de contacto**/
+.formulario-de-contacto{
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/** Formato de las cartas de comediantes**/
+.cards{
+    width: 400px;
+    height: 494px;
+    top: 0px;
+    background-color: #B20303;
+    border: 2px solid black;
+    border-style: double;
+    border-color: bisque;
+    border-width: 4px;
+    border-radius: .3125rem;
+    margin: 20px;
+}
+.cards .clase-img{
+    width: 100%;
+    height: 200px;
+}
+.clase-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.nombre-comediante{
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: #D4D730;
+    opacity: 67%;
+}
+.listado-de-atributos-comediantes{
+    font-family: 'roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: #3241C7;
+    left: 5px;
+    padding: 3px 6px;
+    top: 5px;
+}
+.section-cards{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template: 100% / 1fr 1fr 1fr;
+    grid-area:
+    ""
+    
+    ;
+}
+
