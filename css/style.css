@@ -7,6 +7,9 @@
 
 body {
     font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 /*Aqui comienza la barra de navegacion*/
@@ -103,8 +106,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 100vh;
-padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 .cuerpo p {
@@ -230,6 +232,7 @@ main p {
         grid-gap: 1.875rem;
         padding: 0;
     }
+
     .imgen-portada {
         border-radius: 0.5rem;
     }
@@ -245,7 +248,7 @@ main p {
 }
 
 .formulario-de-contacto label,
-.formulario-de-contacto input{
+.formulario-de-contacto input {
     display: block;
     width: 100%;
 }
