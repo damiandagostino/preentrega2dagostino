@@ -245,7 +245,7 @@ width: 6.25rem;
 /** Formato de las cartas de comediantes**/
 .cards{
     width: 400px;
-    height: 494px;
+    height: 420px;
     top: 0px;
     background-color: #B20303;
     border: 2px solid black;
@@ -285,5 +285,7 @@ width: 6.25rem;
     ""
     
     ;
+    display: flex;
+    flex-wrap: wrap;
 }
 
