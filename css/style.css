@@ -256,10 +256,11 @@ main p {
 
 /** Formato de las cartas de comediantes**/
 .cards {
-    width: 400px;
-    height: 420px;
+    display: flex;
+    flex-direction: column;
     top: 0px;
-    background-color: #B20303;
+    background-color: #fafafa;
+    box-shadow: 10px 5px 5px gray;
     border: 2px solid black;
     border-style: double;
     border-color: bisque;
@@ -269,39 +270,33 @@ main p {
 }
 
 .cards .clase-img {
-    width: 100%;
+    position: relative;
+    overflow: hidden;
     height: 200px;
 }
 
-.clase-img img {
-    object-fit: contain;
-    width: 100%;
+.cards .clase-img img {
+    object-fit: cover;
     height: 100%;
+    width: 100%;
+}
+.cards.primera img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: initial;
+    height: auto;
 }
 
 .nombre-comediante {
     font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    background-color: #D4D730;
     opacity: 67%;
 }
 
 .listado-de-atributos-comediantes {
     font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    background-color: #3241C7;
+    font-size: 16px;
     left: 5px;
     padding: 3px 6px;
     top: 5px;
-}
-
-.section-cards {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template: 100% / 1fr 1fr 1fr;
-    grid-area:
-        ""
-
-    ;
-    display: flex;
-    flex-wrap: wrap;
 }
