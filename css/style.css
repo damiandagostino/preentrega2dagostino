@@ -175,12 +175,13 @@ main p {
       .pie-pagina .grupo-1 .box .red-social a {
         display: inline-flex;
         text-decoration: none;
-        width: 2.8125rem;
+        width: 3.1875rem;
         height: 2.8125rem;
         margin-left: .125rem;
         text-align: center;
         transition: all 300ms ease;
-        color: #ffff; }
+        color: #ffff;
+        font-size: 1.875rem; }
         .pie-pagina .grupo-1 .box .red-social a:hover {
           color: #B20303;
           transform: scale(1.5); }
