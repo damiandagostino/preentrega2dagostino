@@ -1,0 +1,15 @@
+.contenedor-de-imagen {
+    margin-top: .125rem;
+    overflow: hidden;
+    .imgen-portada {
+        width: 100%;
+        border-radius: 3.75rem 0rem 0rem 3.75rem;
+}
+}
+.contenedor-img{
+    display: grid;
+    .img-nosotros{
+        grid-column: 2;
+        grid-template-columns: 1fr 768px 1fr;
+    }
+}

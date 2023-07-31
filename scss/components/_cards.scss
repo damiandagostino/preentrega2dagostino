@@ -1,0 +1,41 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    background-color: $background-resaltado;
+    box-shadow: 0.625rem 0.3125rem 0.3125rem gray;
+    border: 0.125rem solid black;
+    border-style: outset;
+    border-color: #B20303;
+    border-width: 0.25rem;
+    border-radius: .3125rem;
+    margin: 1.25rem;
+    .clase-img {
+        position: relative;
+        overflow: hidden;
+        height: 12.5rem;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    
+}
+
+.cards.primera img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: initial;
+    height: auto;
+}
+.nombre-comediante {
+    opacity: 67%;
+}
+.listado-de-atributos-comediantes {
+    font-size: 1rem;
+    left: .3125rem;
+    padding: .1875rem .375rem;
+    top: .3125rem;
+}

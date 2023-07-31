@@ -1,0 +1,62 @@
+.pie-pagina {
+    width: 100%;
+    background-color: $background-secundario;
+    .grupo-1 {
+        width: 100%;
+        max-width: 64rem;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3.125rem;
+        padding: 0;
+        .box {
+            figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 6.25rem;
+                }
+            }
+            h2 {
+                color: $color-primario;
+                margin-top: .5rem;
+                margin-bottom: 1.5625rem;
+                font-size: 1rem;
+                text-align: center;
+            }
+            p {
+                color: $color-primario;
+                margin-bottom: .625rem;
+            }
+            .red-social {
+                display: flex;
+                justify-content: center;
+                a {
+                    display: inline-flex;
+                    text-decoration: none;
+                    width: 2.8125rem;
+                    height: 2.8125rem;
+                    margin-left: .125rem;
+                    text-align: center;
+                    transition: all 300ms ease;
+                    color: $color-primario;
+                    &:hover {
+                        color: $color-resaltado;
+                    .fa.fa-instagram{
+                        justify-content: center;
+                        align-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .grupo-2 {
+                color: $color-primario;
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+        }

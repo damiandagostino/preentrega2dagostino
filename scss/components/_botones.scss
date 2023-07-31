@@ -1,0 +1,32 @@
+.botonera {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+    .boton{
+        text-align: center;
+        border: 2.5rem;
+        padding: 1rem;
+        text-decoration: none;
+        background: $background-principal;
+        color: $color-primario;
+        font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        border-radius: 3.125rem;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        transition: all 300ms ease;
+        display: inline-flex;
+        padding: 1rem;
+        width: 12.5rem;
+        height: 3.1875rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        box-shadow: 0.3125rem 0.3125rem 0.3125rem gray;
+        &:hover {
+            background-color: $background-resaltado;
+            color: $color-resaltado;
+        }
+    }
