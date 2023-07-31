@@ -45,6 +45,7 @@
                     color: $color-primario;
                     &:hover {
                         color: $color-resaltado;
+                        transform: scale(1.5)
                     }
                 }
             }
