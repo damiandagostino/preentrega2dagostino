@@ -1,0 +1,51 @@
+.row{
+    justify-content: center;
+    .carrousel{
+    width: 400px;
+    .contenedor-carrousel{
+        width: 400px;
+        height: 415px;
+        overflow: hidden;
+        .item-carrousel{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            .item-carrousel-tarjeta{
+                width: 100%;
+                height: 100%;
+            }
+            .item-carrousel-arrows{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%; 
+                display: flex;
+                justify-content: space-between;
+                padding: 50px; 
+                transition: all 500ms ease;
+                i:hover {
+                    cursor: pointer;
+                    color: $color-primario;
+                }
+                a i{
+                    color:$color-resaltado;
+                    font-weight: 800;
+                    font-size: 40px;
+                }
+            
+            }
+        }        
+    }
+}}
+
+
+
+
+
+
+
+
+

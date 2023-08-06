@@ -1,5 +1,11 @@
 #Proyecto Show de Stand Up Hoy
-> Este proyecto fue desarrollado con la finalidad de desarrollar y aplicar los conocimientos adquiridos en el curso de coder house 
+> Este proyecto fue desarrollado con la finalidad de desarrollar y aplicar los conocimientos adquiridos en el curso de coder house. Emula una pagina dedicada a difundir la actividad del Stand Up en Argentina, dando a conocer al usuario los comediantes, la historia de la disciplina en nuestro pais.
+
+Comision 42985
+
+Profesor: Maximiliano Cardenas
+
+Tutor: Damian Laterza
 
 ## Lenguajes aplicados
 

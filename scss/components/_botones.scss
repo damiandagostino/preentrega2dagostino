@@ -28,5 +28,6 @@
         &:hover {
             background-color: $background-resaltado;
             color: $color-resaltado;
+            border: 5px solid $background-principal;
         }
     }
