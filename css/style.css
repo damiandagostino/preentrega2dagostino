@@ -329,7 +329,7 @@ main p {
   .logo {
     display: none; } }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .pie-pagina .grupo-1 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1.875rem;
