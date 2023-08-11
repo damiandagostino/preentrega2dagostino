@@ -23,6 +23,12 @@
     a{
     margin-left: 2.375rem;
     }
+    .encabezados-formulario{
+        display: flex;
+        align-items: center;
+        gap: .25rem;
+
+    }
 }
 .respuesta-contactanos{
     display: flex;
